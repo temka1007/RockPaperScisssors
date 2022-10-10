@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 80px;
+    font-weight: bolder;
+}
