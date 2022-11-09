@@ -1,6 +1,6 @@
 let player = 0;
 let computer = 0; 
-
+// This function porduces "rock, paper, and scissors" with each 33% chance.
 function getComputerChoice() {
     const randomNumber = Math.floor(Math.random()*100);
     if (randomNumber <= 33) {
@@ -11,6 +11,8 @@ function getComputerChoice() {
         return "scissors";
     } 
 }
+
+//This funtion tells who wins the game.
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return "The game is a tie!"; 
@@ -34,13 +36,13 @@ function playRound(playerSelection, computerSelection) {
         return "You lose! Scissors cuts paper.";
     } else {
         return "Choose from 'rock paper scissors'";
-    }
+    }                                                               
 }
 
                                          
 function game() {
     for (let i = 0; i < 5; i++, player, computer) { 
-        let prePlayerSelection = prompt("Choose 'rock - paper - scissor'", ""); 
+        let prePlayerSelection = prompt("Choose 'rock - paper - scissors'", ""); 
         const playerSelection = prePlayerSelection.toLowerCase();
         const computerSelection = getComputerChoice();
 
@@ -49,5 +51,3 @@ function game() {
         console.log(`Player score is ${player}, and computer score is ${computer}`);
     }   
 }
-
-game(); 
