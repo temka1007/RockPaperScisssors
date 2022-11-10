@@ -51,3 +51,5 @@ function game() {
         console.log(`Player score is ${player}, and computer score is ${computer}`);
     }   
 }
+
+console.log(26+24+2);
