@@ -1,0 +1,90 @@
+* {
+    border: 1px solid red;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.player-picture,
+main,
+.computer-picture {
+    height: 815px;
+    width: 33.33%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.com-choices,
+.com-title,
+.play-ground,
+.player-title, 
+.player-choices{
+    margin: 10px;
+    height: 20%;
+}
+.rock,
+.paper,
+.scissors {
+    display: flex;
+    border: 2px solid blue;
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+}
+.player-choices,
+.com-choices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.play-ground {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.computer-score,
+.game,
+.player-score {
+    display: flex;
+    border: 2px solid green;
+}
+.computer-score,
+.player-score {
+    margin: 20px;
+    height: 80px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.score {
+    display: flex;
+    width: 45px;
+    height: 15px;
+}
+.com-title,
+.player-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 120px;
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.vs,
+.computer-pick,
+.player-pick {
+    width: 70px;
+    height: 70px;
+}
