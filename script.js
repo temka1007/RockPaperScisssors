@@ -1,6 +1,6 @@
 let player = 0;
 let computer = 0; 
-// This function porduces "rock, paper, and scissors" with each 33% chance.
+// This function produces "rock, paper, and scissors" with each 33% chance.
 function getComputerChoice() {
     const randomNumber = Math.floor(Math.random()*100);
     if (randomNumber <= 33) {
@@ -12,7 +12,7 @@ function getComputerChoice() {
     } 
 }
 
-//This funtion tells who wins the game.
+//This function tells who wins the game.
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return "The game is a tie!"; 
@@ -51,5 +51,3 @@ function game() {
         console.log(`Player score is ${player}, and computer score is ${computer}`);
     }   
 }
-
-console.log(26+24+2);
