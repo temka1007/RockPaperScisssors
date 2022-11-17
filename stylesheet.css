@@ -27,14 +27,29 @@ main {
     margin: 10px;
     height: 20%;
 }
-.rock,
-.paper,
-.scissors {
+#rock,
+#paper,
+#scissors {
     display: flex;
     border: 2px solid blue;
     height: 90px;
     width: 90px;
     margin: 5px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.com-rock,
+.com-paper,
+.com-scissors {
+    display: flex;
+    border: 2px solid blue;
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 .player-choices,
 .com-choices {
