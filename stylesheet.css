@@ -57,8 +57,6 @@ main {
 #scissors:hover {
     background-color: #17DC00;
 }   
-
-
 .com-rock,
 .com-paper,
 .com-scissors {
@@ -132,6 +130,7 @@ main {
 .player-pick {
     width: 70px;
     height: 70px;
+    border-radius: 35px;
 }
 .vs {
     display: flex;
@@ -146,4 +145,12 @@ main {
 .player-pick {
     width: 70px;
     height: 70px;
+}
+.computer-pick,
+.player-pick {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    
+
 }
